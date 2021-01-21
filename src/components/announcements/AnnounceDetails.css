@@ -1,0 +1,119 @@
+.main-content {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+}
+
+.leftSection,
+.right-section {
+    width: 50%;
+}
+
+.leftSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.leftSection img {
+    width: 85%;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 17px;
+    padding: 0px 10px;
+    width: 85%;
+}
+
+.like-button {
+    color: #f40d55;
+    cursor: pointer;
+}
+
+.action-button svg {
+    transition: 0.3s all ease-in-out;
+}
+
+.action-button:hover svg {
+    transform: scale(1.25);
+}
+
+.delete-button {
+    padding-right: 10px;
+    color: #f40d55;
+    cursor: pointer;
+}
+
+.modal-trigger:focus .modal {
+    display: block !important;
+}
+
+.edit-button {
+    color: #0070ff;
+    cursor: pointer;
+}
+
+.right-section {
+    padding: 10px 30px;
+}
+
+.right-section-title {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.content-section {
+    display: flex;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    /* justify-content: center;
+    align-items: center; */
+    min-height: 100px;
+}
+
+.hashtag-section p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* .hashtag-section {
+  display: block;
+  font-weight: bolder;
+  margin-bottom: 25px;
+} */
+
+.card-date__prefix {
+    margin-top: 25px;
+    display: block;
+    font-weight: bolder;
+    padding-right: 5px;
+}
+
+.image-content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.image-content-section__likeButton {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.image-content-section__likeButton:focus {
+    outline: none;
+}
+
+.image-content-section__likesCounter {
+    display: inline;
+    margin-left: 5px;
+}

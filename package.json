@@ -1,0 +1,55 @@
+{
+  "name": "socfrontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@use-it/event-listener": "^0.1.6",
+    "fast-average-color": "^6.3.0",
+    "firebase": "^7.20.0",
+    "get-average-color": "0.0.6",
+    "lodash.uniq": "^4.5.0",
+    "materialize-css": "^1.0.0",
+    "moment": "^2.29.1",
+    "react": "^16.13.1",
+    "react-circular-progressbar": "^2.0.3",
+    "react-dom": "^16.13.1",
+    "react-firebase-file-uploader": "^2.4.3",
+    "react-materialize": "^3.9.4",
+    "react-moment": "^1.0.0",
+    "react-redux": "^7.2.1",
+    "react-redux-firebase": "^3.7.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "redux": "^4.0.5",
+    "redux-firestore": "^0.13.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

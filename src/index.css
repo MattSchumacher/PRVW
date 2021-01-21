@@ -1,0 +1,237 @@
+html{
+  min-height: 100%
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI Light', sans-serif;
+  background-size: 100%;
+  background-position: bottom;
+  background-color: white;
+  min-height: 100%;
+  /* background-image: url('/img/background.jpg'); */
+  background-size: auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+form{
+  padding: 20px;
+  margin-top: 60px;
+}
+
+form button, form h5{
+  margin: 20px 0;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color: #ec407a;
+  box-shadow: none;
+}
+
+.nav-wrapper .container {
+  display: flex;
+  justify-content: space-between;;
+  align-items: center;
+  width: 90%;
+}
+
+.brand-logo {
+  height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.nav-wrapper-blue {
+  background-color: #ffffff !important;
+  height: 110px;
+  line-height: 110px;
+}
+
+.nav-wrapper-grey{
+  background-color: transparent !important;
+  height: 60px;
+  line-height:60px;
+}
+
+
+
+button.login-btn{
+  background-color: #20557D;
+}
+
+h3.thick{
+  font-weight: bold;
+}
+
+nav .brand-logo {
+  position: initial;
+  display: inline-flex;
+  height: 75%;
+    align-items: center;
+}
+
+.brand-logo img{
+  position:relative;
+  width:30%;
+}
+
+.home-button {
+
+}
+
+.post-button:hover {
+  background-color: black !important;
+}
+
+p.welcome{
+  position:relative;
+  margin-top:0;
+  margin-bottom:0;
+  padding-top:0;
+  padding-bottom:0;
+  padding-right:40px;
+  font-size: 20px;
+  color:black;
+  font-weight:bold;
+}
+
+p.login {
+  margin-top:5px;
+  margin-right:40px;
+  font-size: 15px;
+}
+
+nav.transparent{
+  margin-top:0;
+}
+
+.btn{
+  border-radius: 30px 30px 30px;
+  color: white;
+  background-color: #f40d55;
+}
+
+.dashboard{
+  margin-top:25px;
+  width: 90%;
+}
+
+h3.padding{
+  padding: 0px 0px 30px 0px;
+  margin: 0;
+}
+
+button.padding-top{
+  margin-top:7px;
+}
+
+.card .card-title{
+  font-weight: bold;
+}
+
+div.card-action.grey.lighten-4.grey-text p{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.material-icons.summary{
+  padding: 25px 30px 10px 15px;
+  font-size: 50px;
+}
+
+.material-icons.progressMod{
+  font-size: 50px;
+}
+
+hr {
+  margin: 20px 0px 20px 0px;
+  border:none;
+  background-color: gray;
+  height:0.5px;
+}
+
+.margin-top-20{
+  margin-top:20px;
+}
+
+.margin-left-10{
+  margin-left:10px;
+}
+
+.padding-radio{
+  padding-left:50px;
+  padding-bottom: 20px;
+}
+
+div.input-field p label{
+  padding-right: 20px;
+}
+
+.header-img{
+  height: 100%;
+  width: 100%;
+}
+
+.row.row-nomargin{
+  margin: 0;
+}
+
+.circlep-w{
+  width:75%;
+}
+
+table thead tr{
+  text-align: left;
+}
+
+table tbody tr td{
+  text-align: left;
+}
+
+td.red-bg{
+  background-color: #db4d40;
+  color: white;
+  font-weight: bold;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.page-title{
+  font-weight: bold;
+}
+
+td.text-bold{
+  font-weight: bold;
+}
+
+div.login-container{
+  width:25%;
+  border-radius: 70px;
+}
+
+
+.page-footer{
+  margin-top:30%;
+  padding: 100px 0 0 0;
+}
+
+p bold{
+  font-weight: bold;
+}
+
+img.img-preview{
+  height: 50%;
+  width: 50%;
+}
